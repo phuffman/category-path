@@ -2,29 +2,30 @@ package main
 
 import (
 	"encoding/csv"
+	"fmt"
 	"os"
 	"sort"
 	"strings"
-
-	"github.com/ogier/pflag"
-)
-
-// flags
-var (
-	fin string
 )
 
 func main() {
-	pflag.Parse()
+
+	if len(os.Args) != 2 {
+		fmt.Println("Please provide a filename")
+		return
+	}
+
+	// Open the file (f)
+	filename := os.Args[1]
+	f, err := os.Open(filename)
+	if err != nil {
+		fmt.Printf("error opening %s: %s", filename, err)
+		return
+	}
+	defer f.Close()
 
 	// Create new map (m)
 	m := make(map[string]string)
-
-	// Open the file (f)
-	f, err := os.Open(os.Args[1])
-	if err != nil {
-		panic(err)
-	}
 
 	// Start the reader (r)
 	r := csv.NewReader(f)
@@ -65,8 +66,4 @@ func main() {
 		println(line)
 	}
 
-}
-
-func init() {
-	pflag.StringVarP(&fin, "inputfile", "i", "", "Input File")
 }
