@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/csv"
 	"fmt"
+	"log"
 	"os"
 	"sort"
 	"strings"
@@ -18,10 +19,7 @@ func main() {
 	// Open the file (f)
 	filename := os.Args[1]
 	f, err := os.Open(filename)
-	if err != nil {
-		fmt.Printf("error opening %s: %s", filename, err)
-		return
-	}
+	checkError("Cannot open file", err)
 	defer f.Close()
 
 	// Create new map (m)
@@ -32,9 +30,7 @@ func main() {
 
 	// Read the csv into variable
 	rows, err := r.ReadAll()
-	if err != nil {
-		panic(err)
-	}
+	checkError("Cannot read file", err)
 
 	// Populate the map
 	for _, row := range rows {
@@ -66,4 +62,22 @@ func main() {
 		println(line)
 	}
 
+	file, err := os.Create("result.csv")
+	checkError("Cannot create file", err)
+	defer file.Close()
+
+	writer := csv.NewWriter(file)
+	defer writer.Flush()
+
+	for _, value := range data {
+		err := writer.Write(value)
+		checkError("Cannot write to file", err)
+	}
+
+}
+
+func checkError(message string, err error) {
+	if err != nil {
+		log.Fatal(message, err)
+	}
 }
