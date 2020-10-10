@@ -1,0 +1,253 @@
+Category Type: Category Type Name -> Parent Category -> Category: Category Name
+Mapping Categories -> AV Infrastructure -> Autonomous -> Data Ingestion and Labeling (AV)
+Mapping Categories -> AV Infrastructure -> Autonomous -> Diagnostics (AV)
+Mapping Categories -> AV Infrastructure -> Autonomous -> Log Visualizers (AV)
+Mapping Categories -> AV Infrastructure -> Autonomous -> Monitoring (AV)
+Mapping Categories -> AV Infrastructure -> Autonomous -> Security (AV)
+Mapping Categories -> Advertising (Misc) -> Miscellaneous -> Display (Misc)
+Mapping Categories -> Advertising (Misc) -> Miscellaneous -> Targeting Intelligence (Misc)
+Mapping Categories -> Advertising -> Marketplace -> Display
+Mapping Categories -> Advertising -> Marketplace -> Targeting Intelligence
+Mapping Categories -> Autonomous
+Mapping Categories -> Autonomous -> AV Infrastructure
+Mapping Categories -> Autonomous -> Autonomy
+Mapping Categories -> Autonomous -> Fleet Management (AV)
+Mapping Categories -> Autonomous -> Vehicle
+Mapping Categories -> Autonomy -> Autonomous -> Control (AV)
+Mapping Categories -> Autonomy -> Autonomous -> Functional Safety
+Mapping Categories -> Autonomy -> Autonomous -> Localization (AV)
+Mapping Categories -> Autonomy -> Autonomous -> Perception (AV)
+Mapping Categories -> Autonomy -> Autonomous -> Performance Metrics
+Mapping Categories -> Autonomy -> Autonomous -> Planning (AV)
+Mapping Categories -> Autonomy -> Autonomous -> Prediction (AV)
+Mapping Categories -> Autonomy -> Autonomous -> Simulation
+Mapping Categories -> Battery -> Hardware (TBS) -> TBS -> Charging
+Mapping Categories -> Communications (Marketplace) -> Marketplace -> Driver (Comms Mktplc)
+Mapping Categories -> Communications (Marketplace) -> Marketplace -> Rider (Comms Mktplc)
+Mapping Categories -> Communications (Misc) -> Miscellaneous -> Call Detail
+Mapping Categories -> Communications (Misc) -> Miscellaneous -> Conference Call
+Mapping Categories -> Communications (Misc) -> Miscellaneous -> Messaging
+Mapping Categories -> Communications (Misc) -> Miscellaneous -> Teleconference
+Mapping Categories -> Communications (Misc) -> Miscellaneous -> Video Conference
+Mapping Categories -> Communications (Misc) -> Miscellaneous -> Voice Calling
+Mapping Categories -> Communications (Misc) -> Miscellaneous -> Voice Mail
+Mapping Categories -> Communications (Vehicle) -> Vehicle -> Autonomous -> Vehicle to Infrastructure
+Mapping Categories -> Communications (Vehicle) -> Vehicle -> Autonomous -> Vehicle to Network
+Mapping Categories -> Communications (Vehicle) -> Vehicle -> Autonomous -> Vehicle to Passenger
+Mapping Categories -> Communications (Vehicle) -> Vehicle -> Autonomous -> Vehicle to Pedestrian
+Mapping Categories -> Communications (Vehicle) -> Vehicle -> Autonomous -> Vehicle to Vehicle
+Mapping Categories -> Communications Network -> Software (TBS) -> TBS -> Network to User (Comms Network)
+Mapping Categories -> Communications Network -> Software (TBS) -> TBS -> Vehicle to Network (Comms Network)
+Mapping Categories -> Communications Network -> Software (TBS) -> TBS -> Vehicle to User (Comms Network)
+Mapping Categories -> Communications Network -> Software (TBS) -> TBS -> Vehicle to Vehicle (Comms Network)
+Mapping Categories -> Computing Device -> Hardware (TBS) -> TBS -> User Interface
+Mapping Categories -> Content Services -> Miscellaneous -> Bartering
+Mapping Categories -> Content Services -> Miscellaneous -> Subscriber Recommendations
+Mapping Categories -> Design
+Mapping Categories -> Design -> Hardware
+Mapping Categories -> Design -> Software
+Mapping Categories -> Diagnostics -> Software (TBS) -> TBS -> Notifications
+Mapping Categories -> Diagnostics -> Software (TBS) -> TBS -> Sensing
+Mapping Categories -> Diagnostics -> Software (TBS) -> TBS -> Status
+Mapping Categories -> Dispatch (AV) -> Marketplace (AV) -> Fleet Management (AV) -> Autonomous -> Matching Intelligence (AV)
+Mapping Categories -> Dispatch -> Marketplace -> Matching Intelligence
+Mapping Categories -> Docking -> Hardware (TBS) -> TBS -> Docked
+Mapping Categories -> Docking -> Hardware (TBS) -> TBS -> Dockless
+Mapping Categories -> Driver UEX -> UEX -> Software -> Design -> In Vehicle Experience D-UEX
+Mapping Categories -> Express Drive -> Fleet -> Vehicle Telematics
+Mapping Categories -> Fleet
+Mapping Categories -> Fleet -> Express Drive
+Mapping Categories -> Fleet -> Fleet Platform
+Mapping Categories -> Fleet -> Rentals
+Mapping Categories -> Fleet -> Vehicle Service Center
+Mapping Categories -> Fleet Management (AV) -> Autonomous -> Facilities (AV)
+Mapping Categories -> Fleet Management (AV) -> Autonomous -> Maintenance / Servicing (AV)
+Mapping Categories -> Fleet Management (AV) -> Autonomous -> Marketplace (AV)
+Mapping Categories -> Fleet Management (AV) -> Autonomous -> Parking (AV)
+Mapping Categories -> Fleet Platform -> Fleet -> Fleet Manager
+Mapping Categories -> Hardware (TBS) -> TBS -> Battery
+Mapping Categories -> Hardware (TBS) -> TBS -> Braking
+Mapping Categories -> Hardware (TBS) -> TBS -> Carrier
+Mapping Categories -> Hardware (TBS) -> TBS -> Computing Device
+Mapping Categories -> Hardware (TBS) -> TBS -> Dock
+Mapping Categories -> Hardware (TBS) -> TBS -> Docking
+Mapping Categories -> Hardware (TBS) -> TBS -> Fender
+Mapping Categories -> Hardware (TBS) -> TBS -> Fork
+Mapping Categories -> Hardware (TBS) -> TBS -> Frame
+Mapping Categories -> Hardware (TBS) -> TBS -> Gears
+Mapping Categories -> Hardware (TBS) -> TBS -> Handles
+Mapping Categories -> Hardware (TBS) -> TBS -> Kickstand
+Mapping Categories -> Hardware (TBS) -> TBS -> Lighting
+Mapping Categories -> Hardware (TBS) -> TBS -> Locking
+Mapping Categories -> Hardware (TBS) -> TBS -> Motorization
+Mapping Categories -> Hardware (TBS) -> TBS -> Pedals
+Mapping Categories -> Hardware (TBS) -> TBS -> Seat
+Mapping Categories -> Hardware (TBS) -> TBS -> Station
+Mapping Categories -> Hardware (TBS) -> TBS -> Steering Column
+Mapping Categories -> Hardware (TBS) -> TBS -> Suspension
+Mapping Categories -> Hardware (TBS) -> TBS -> Throttle
+Mapping Categories -> Hardware (TBS) -> TBS -> Tires
+Mapping Categories -> Hardware (TBS) -> TBS -> Wheels
+Mapping Categories -> Hardware -> Design -> Industrial Design
+Mapping Categories -> Imaging Analysis -> Mapping -> Object Tracking
+Mapping Categories -> Imaging Analysis -> Mapping -> Trajectories
+Mapping Categories -> In Vehicle Experience D-UEX -> Driver UEX -> UEX -> Software -> Design -> Situational Awareness D-UEX
+Mapping Categories -> In Vehicle Experience P-UEX -> Passenger UEX -> UEX -> Software -> Design -> AR
+Mapping Categories -> In Vehicle Experience P-UEX -> Passenger UEX -> UEX -> Software -> Design -> Situational Awareness P-UEX
+Mapping Categories -> In Vehicle Experience P-UEX -> Passenger UEX -> UEX -> Software -> Design -> VR
+Mapping Categories -> In Vehicle Experience P-UEX -> Passenger UEX -> UEX -> Software -> Design -> Vending
+Mapping Categories -> Incentives -> Marketplace -> Driver
+Mapping Categories -> Incentives -> Marketplace -> Rider
+Mapping Categories -> Infrastructure
+Mapping Categories -> Infrastructure -> Core Services
+Mapping Categories -> Infrastructure -> Data Privacy
+Mapping Categories -> Infrastructure -> Security
+Mapping Categories -> Locations -> Mapping -> Pickup / Dropoff
+Mapping Categories -> Maintenance -> TBS Operations -> TBS -> Charging (Maint)
+Mapping Categories -> Map Generation -> Mapping -> Geometric Map
+Mapping Categories -> Map Generation -> Mapping -> Map Updates
+Mapping Categories -> Map Generation -> Mapping -> Semantic Map Info
+Mapping Categories -> Mapping
+Mapping Categories -> Mapping -> Annotation
+Mapping Categories -> Mapping -> Imaging Analysis
+Mapping Categories -> Mapping -> Locations
+Mapping Categories -> Mapping -> Map Generation
+Mapping Categories -> Mapping -> Navigation
+Mapping Categories -> Mapping -> Routing
+Mapping Categories -> Mapping -> Scenarios
+Mapping Categories -> Marketplace
+Mapping Categories -> Marketplace (AV) -> Fleet Management (AV) -> Autonomous -> Dispatch (AV)
+Mapping Categories -> Marketplace (AV) -> Fleet Management (AV) -> Autonomous -> Pricing Intelligence (AV)
+Mapping Categories -> Marketplace (AV) -> Fleet Management (AV) -> Autonomous -> Simulator (Marketplace AV)
+Mapping Categories -> Marketplace -> Advertising
+Mapping Categories -> Marketplace -> Communications (Marketplace)
+Mapping Categories -> Marketplace -> Conversion
+Mapping Categories -> Marketplace -> Demand / Supply
+Mapping Categories -> Marketplace -> Dispatch
+Mapping Categories -> Marketplace -> Incentives
+Mapping Categories -> Marketplace -> Payments
+Mapping Categories -> Marketplace -> Pricing Intelligence
+Mapping Categories -> Marketplace -> Support
+Mapping Categories -> Marketplace -> Transit
+Mapping Categories -> Matching Intelligence (AV) -> Dispatch (AV) -> Marketplace (AV) -> Fleet Management (AV) -> Autonomous -> Acceptance Probability (AV)
+Mapping Categories -> Matching Intelligence (AV) -> Dispatch (AV) -> Marketplace (AV) -> Fleet Management (AV) -> Autonomous -> Locations for Matching (AV)
+Mapping Categories -> Matching Intelligence (AV) -> Dispatch (AV) -> Marketplace (AV) -> Fleet Management (AV) -> Autonomous -> Pre-set / Scheduled Dispatch (AV)
+Mapping Categories -> Matching Intelligence (AV) -> Dispatch (AV) -> Marketplace (AV) -> Fleet Management (AV) -> Autonomous -> Utilization (AV)
+Mapping Categories -> Matching Intelligence -> Dispatch -> Marketplace -> Congested Venues
+Mapping Categories -> Matching Intelligence -> Dispatch -> Marketplace -> Driver Acceptance Probability
+Mapping Categories -> Matching Intelligence -> Dispatch -> Marketplace -> ETA
+Mapping Categories -> Matching Intelligence -> Dispatch -> Marketplace -> Onboarding
+Mapping Categories -> Matching Intelligence -> Dispatch -> Marketplace -> Pooling Requests
+Mapping Categories -> Matching Intelligence -> Dispatch -> Marketplace -> Pre-request Presentation
+Mapping Categories -> Matching Intelligence -> Dispatch -> Marketplace -> Pre-set / Scheduled Dispatch
+Mapping Categories -> Matching Intelligence -> Dispatch -> Marketplace -> Shared Rides
+Mapping Categories -> Matching Intelligence -> Dispatch -> Marketplace -> Transportation Mode
+Mapping Categories -> Miscellaneous
+Mapping Categories -> Miscellaneous -> Advertising (Misc)
+Mapping Categories -> Miscellaneous -> Communications (Misc)
+Mapping Categories -> Miscellaneous -> Content Services
+Mapping Categories -> Miscellaneous -> DVR
+Mapping Categories -> Miscellaneous -> Database
+Mapping Categories -> Miscellaneous -> Directory Services
+Mapping Categories -> Miscellaneous -> ECommerce
+Mapping Categories -> Miscellaneous -> Enterprise
+Mapping Categories -> Miscellaneous -> Fiber Networking
+Mapping Categories -> Miscellaneous -> Finance
+Mapping Categories -> Miscellaneous -> GUI
+Mapping Categories -> Miscellaneous -> IPTV
+Mapping Categories -> Miscellaneous -> Mobile Device
+Mapping Categories -> Miscellaneous -> Networking
+Mapping Categories -> Miscellaneous -> Optical Networking
+Mapping Categories -> Miscellaneous -> Security (Miscellaneous)
+Mapping Categories -> Miscellaneous -> Social
+Mapping Categories -> Miscellaneous -> Telecom
+Mapping Categories -> Miscellaneous -> User Profile
+Mapping Categories -> Miscellaneous -> User Rating Modeling
+Mapping Categories -> Miscellaneous -> Vehicle (Miscellaneous)
+Mapping Categories -> Onboarding -> Matching Intelligence -> Dispatch -> Marketplace -> Bike (Onboarding)
+Mapping Categories -> Onboarding -> Matching Intelligence -> Dispatch -> Marketplace -> Scooter (Onboarding)
+Mapping Categories -> Partnerships
+Mapping Categories -> Partnerships -> Concierge
+Mapping Categories -> Partnerships -> Developer Platform
+Mapping Categories -> Passenger UEX -> UEX -> Software -> Design -> In Vehicle Experience P-UEX
+Mapping Categories -> Passenger UEX -> UEX -> Software -> Design -> Multi-Modal
+Mapping Categories -> Perception (AV) -> Autonomy -> Autonomous -> Object Classification (AV)
+Mapping Categories -> Perception (AV) -> Autonomy -> Autonomous -> Object Identification (AV)
+Mapping Categories -> Perception (AV) -> Autonomy -> Autonomous -> Situational Awareness (AV)
+Mapping Categories -> Performance Metrics -> Autonomy -> Autonomous -> Comfort
+Mapping Categories -> Performance Metrics -> Autonomy -> Autonomous -> Elegance
+Mapping Categories -> Performance Metrics -> Autonomy -> Autonomous -> Safety
+Mapping Categories -> Performance Metrics -> Autonomy -> Autonomous -> Utility
+Mapping Categories -> Pickup / Dropoff -> Locations -> Mapping -> Curbs
+Mapping Categories -> Pickup / Dropoff -> Locations -> Mapping -> Location Labeling
+Mapping Categories -> Pickup / Dropoff -> Locations -> Mapping -> Projected / Predicted Locations
+Mapping Categories -> Pricing Intelligence (AV) -> Marketplace (AV) -> Fleet Management (AV) -> Autonomous -> Conversion (AV)
+Mapping Categories -> Pricing Intelligence (AV) -> Marketplace (AV) -> Fleet Management (AV) -> Autonomous -> Demand / Supply (AV)
+Mapping Categories -> Pricing Intelligence (AV) -> Marketplace (AV) -> Fleet Management (AV) -> Autonomous -> ETA (AV)
+Mapping Categories -> Rideshare Services
+Mapping Categories -> Rideshare Services -> Driver Services
+Mapping Categories -> Rideshare Services -> Passenger Services
+Mapping Categories -> Rideshare Services -> Telematics
+Mapping Categories -> Scenarios -> Mapping -> AV Readiness
+Mapping Categories -> Scenarios -> Mapping -> Characterization
+Mapping Categories -> Scenarios -> Mapping -> Collection
+Mapping Categories -> Scenarios -> Mapping -> Encoding
+Mapping Categories -> Scenarios -> Mapping -> Exposure
+Mapping Categories -> Sensing -> Diagnostics -> Software (TBS) -> TBS -> Environment
+Mapping Categories -> Sensing -> Diagnostics -> Software (TBS) -> TBS -> Vehicle (Sensing)
+Mapping Categories -> Sensors -> Vehicle -> Autonomous -> Camera
+Mapping Categories -> Sensors -> Vehicle -> Autonomous -> GPS
+Mapping Categories -> Sensors -> Vehicle -> Autonomous -> IMU
+Mapping Categories -> Sensors -> Vehicle -> Autonomous -> In Vehicle Sensors
+Mapping Categories -> Sensors -> Vehicle -> Autonomous -> Lidar
+Mapping Categories -> Sensors -> Vehicle -> Autonomous -> Radar
+Mapping Categories -> Sensors -> Vehicle -> Autonomous -> Sensor Calibration
+Mapping Categories -> Service & Maintenance -> Vehicle Service Center -> Fleet -> Collision
+Mapping Categories -> Software (TBS) -> TBS -> Communications Network
+Mapping Categories -> Software (TBS) -> TBS -> Control I/O
+Mapping Categories -> Software (TBS) -> TBS -> Diagnostics
+Mapping Categories -> Software -> Design -> UEX
+Mapping Categories -> Software -> Design -> UI
+Mapping Categories -> TBS
+Mapping Categories -> TBS -> Hardware (TBS)
+Mapping Categories -> TBS -> Software (TBS)
+Mapping Categories -> TBS -> TBS Operations
+Mapping Categories -> TBS -> Vehicle Type
+Mapping Categories -> TBS Operations -> TBS -> Maintenance
+Mapping Categories -> TBS Operations -> TBS -> Positioning & Rebalancing
+Mapping Categories -> Telecom -> Miscellaneous -> Billing (telecom)
+Mapping Categories -> Telematics -> Rideshare Services -> Hardware (Telematics)
+Mapping Categories -> Telematics -> Rideshare Services -> Insurance (Telematics)
+Mapping Categories -> Telematics -> Rideshare Services -> Safety (Telematics)
+Mapping Categories -> Telematics -> Rideshare Services -> Vehicle (Telematics)
+Mapping Categories -> Trajectories -> Imaging Analysis -> Mapping -> Agent Trajectory
+Mapping Categories -> Trajectories -> Imaging Analysis -> Mapping -> Ego Trajectory
+Mapping Categories -> Transportation Mode -> Matching Intelligence -> Dispatch -> Marketplace -> Bike (Transportation Mode)
+Mapping Categories -> Transportation Mode -> Matching Intelligence -> Dispatch -> Marketplace -> Car (Transportation Mode)
+Mapping Categories -> Transportation Mode -> Matching Intelligence -> Dispatch -> Marketplace -> EV3 (Transportation Mode)
+Mapping Categories -> Transportation Mode -> Matching Intelligence -> Dispatch -> Marketplace -> Multi-Modal (Transportation Mode)
+Mapping Categories -> Transportation Mode -> Matching Intelligence -> Dispatch -> Marketplace -> Scooter (Transportation Mode)
+Mapping Categories -> UEX -> Software -> Design -> Driver UEX
+Mapping Categories -> UEX -> Software -> Design -> Passenger UEX
+Mapping Categories -> UI -> Software -> Design -> Driver UI
+Mapping Categories -> UI -> Software -> Design -> Passenger UI
+Mapping Categories -> User Profile -> Miscellaneous -> Avatar
+Mapping Categories -> Vehicle (Miscellaneous) -> Miscellaneous -> Billing
+Mapping Categories -> Vehicle (Sensing) -> Sensing -> Diagnostics -> Software (TBS) -> TBS -> Steering
+Mapping Categories -> Vehicle (Sensing) -> Sensing -> Diagnostics -> Software (TBS) -> TBS -> Tire (Vehicle Sensing)
+Mapping Categories -> Vehicle (Sensing) -> Sensing -> Diagnostics -> Software (TBS) -> TBS -> Weight (Vehicle Sensing)
+Mapping Categories -> Vehicle -> Autonomous -> Battery (Vehicle)
+Mapping Categories -> Vehicle -> Autonomous -> Cabin Sanitation
+Mapping Categories -> Vehicle -> Autonomous -> Communications (Vehicle)
+Mapping Categories -> Vehicle -> Autonomous -> Compute System
+Mapping Categories -> Vehicle -> Autonomous -> Heating / Cooling Subsystem
+Mapping Categories -> Vehicle -> Autonomous -> In Car Experience (AV)
+Mapping Categories -> Vehicle -> Autonomous -> Power Subsystem
+Mapping Categories -> Vehicle -> Autonomous -> Sensors
+Mapping Categories -> Vehicle Service Center -> Fleet -> Service & Maintenance
+Mapping Categories -> Vehicle Service Center -> Fleet -> Training Center
+Mapping Categories -> Vehicle Service Center -> Fleet -> Vehicle Health
+Mapping Categories -> Vehicle Type -> TBS -> Classic Bike (Vehicle Type)
+Mapping Categories -> Vehicle Type -> TBS -> Cosmo
+Mapping Categories -> Vehicle Type -> TBS -> EV3 (Vehicle Type)
+Mapping Categories -> Vehicle Type -> TBS -> Scooter (Vehicle Type)

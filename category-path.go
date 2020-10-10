@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/csv"
 	"fmt"
+	"io"
 	"log"
 	"os"
 	"sort"
@@ -11,8 +12,8 @@ import (
 
 func main() {
 
-	if len(os.Args) != 2 {
-		fmt.Println("Please provide a filename")
+	if len(os.Args) != 3 {
+		fmt.Println("Use the category-path file-in file-out")
 		return
 	}
 
@@ -22,58 +23,71 @@ func main() {
 	checkError("Cannot open file", err)
 	defer f.Close()
 
-	// Create new map (m)
+	// Create map to hold categories (m)
 	m := make(map[string]string)
 
-	// Start the reader (r)
+	// Create reader (r)
 	r := csv.NewReader(f)
 
-	// Read the csv into variable
+	// Read csv to variable (rows)
 	rows, err := r.ReadAll()
-	checkError("Cannot read file", err)
+	checkError("Can't read file", err)
 
-	// Populate the map
+	// Add categories to map (m)
 	for _, row := range rows {
 		m[row[1]] = row[2]
 	}
 
-	lines := []string{}
+	// Create slice (path) to hold all paths
+	paths := []string{}
 
-	// Lookup
+	// Iterate csv (rows)
 	for _, row := range rows {
 
+		// Create variables to hold current csv row
 		categorytype := row[0]
 		category := row[1]
 		parent := row[2]
 
-		path := []string{categorytype}
+		// Create slice (path) to hold current path
+		path := []string{}
 
+		// 1) Add category type to 'path'
+		path = append(path, categorytype)
+
+		// 2) Add parent to 'path', then loop adding parent of parent, etc. to 'path'
 		for parent != "" {
 			path = append(path, parent)
 			parent = m[parent]
 		}
-
+		// 3) Finally, add category to 'path'
 		path = append(path, category)
-		lines = append(lines, strings.Join(path, " -> "))
-	}
-	sort.Strings(lines)
 
-	for _, line := range lines {
-		println(line)
+		// Add 'path' to 'paths'
+		paths = append(paths, strings.Join(path, " -> "))
 	}
 
-	file, err := os.Create("result.csv")
-	checkError("Cannot create file", err)
+	// Sort paths
+	sort.Strings(paths)
+
+	output := strings.Join(paths, "\n")
+
+	println(output)
+
+	/*
+		for _, line := range paths {
+			println(line)
+		}
+	*/
+
+	file, err := os.Create("./out.csv")
+	checkError("Can't create file", err)
 	defer file.Close()
 
-	writer := csv.NewWriter(file)
-	defer writer.Flush()
+	ln, err := io.WriteString(file, output)
+	checkError("Can't write file", err)
 
-	for _, value := range data {
-		err := writer.Write(value)
-		checkError("Cannot write to file", err)
-	}
-
+	fmt.Printf("String length: %v"+"\n", ln)
 }
 
 func checkError(message string, err error) {
