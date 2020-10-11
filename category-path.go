@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/csv"
 	"fmt"
+	"io"
 	"log"
 	"os"
 	"sort"
@@ -32,9 +33,8 @@ func main() {
 	type Columns struct {
 		categorytype, parent, category int
 	}
-	var cols Columns
 
-	fmt.Printf("cateory = %T\n", cols.category)
+	cols := Columns{0, 0, 100}
 
 	i := 0
 	for _, column := range header {
@@ -74,8 +74,8 @@ func main() {
 	for _, row := range rows {
 
 		// Create variables to hold parent and category from current row
-		parent := row[2]
-		category := row[1]
+		parent := row[cols.parent]
+		category := row[cols.category]
 
 		// Create slice (path) to hold current path
 		path := []string{}
@@ -90,7 +90,7 @@ func main() {
 		}
 
 		// 3) Finally, if exists, prepend category type
-		if cols.categorytype != 0 {
+		if cols.categorytype != 100 {
 			categorytype := row[cols.categorytype]
 			path = append([]string{categorytype}, path...)
 		}
@@ -103,24 +103,22 @@ func main() {
 	sort.Strings(paths)
 
 	// Convert slice to string (output)
-	// output := strings.Join(paths, "\n")
+	output := strings.Join(paths, "\n")
 
 	// Print 'output' to screen
-	// println(output)
+	println(output)
 
-	/*
-		// Create output file
-		file, err := os.Create("out.csv")
-		checkError("Can't create file", err)
-		defer file.Close()
+	// Create output file
+	file, err := os.Create("out.csv")
+	checkError("Can't create file", err)
+	defer file.Close()
 
-		// Write string to output file
-		ln, err := io.WriteString(file, output)
-		checkError("Can't write file", err)
+	// Write string to output file
+	ln, err := io.WriteString(file, output)
+	checkError("Can't write file", err)
 
-		// ln (above) is required, and it needs to be used somewhere, so I'm showing it here ...
-		fmt.Printf("String length: %v"+"\n", ln)
-	*/
+	// ln (above) is required, and it needs to be used somewhere, so I'm showing it here ...
+	fmt.Printf("String length: %v"+"\n", ln)
 }
 
 func checkError(message string, err error) {
