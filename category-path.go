@@ -18,8 +18,8 @@ func main() {
 	}
 
 	// Open the file (f)
-	fin := os.Args[1]
-	f, err := os.Open(fin)
+	argIn := os.Args[1]
+	f, err := os.Open(argIn)
 	checkError("Cannot open file", err)
 	defer f.Close()
 
@@ -46,25 +46,25 @@ func main() {
 
 		// Create variables to hold current csv row
 		categorytype := row[0]
-		category := row[1]
-		parent := row[2]
+		parent := row[1]
+		category := row[2]
 
 		// Create slice (path) to hold current path
 		path := []string{}
 
-		// 1) First, add category type
-		path = append(path, categorytype)
-
-		// 2) Then, add parent, parent of parent, etc.
-		for parent != "" {
-			path = append(path, parent)
-			parent = m[parent]
-		}
-		// 3) Finally, add category
+		// 1) First, add category
 		path = append(path, category)
 
+		// 2) Then, prepend parent, parent of parent, etc.
+		for parent != "" {
+			path = append([]string{parent}, path...)
+			parent = m[parent]
+		}
+		// 3) Finally, prepend category type
+		path = append([]string{categorytype}, path...)
+
 		// Add current 'path' to 'paths'
-		paths = append(paths, strings.Join(path, " -> "))
+		paths = append(paths, strings.Join(path, " > "))
 	}
 
 	// Sort paths
@@ -73,12 +73,14 @@ func main() {
 	// Convert slice to string (output)
 	output := strings.Join(paths, "\n")
 
-	// Print 'output' to screen
-	println(output)
+	/*
+		// Print 'output' to screen
+		println(output)
+	*/
 
 	// Create output file
-	fout := os.Args[2]
-	file, err := os.Create(fout)
+	argOut := os.Args[2]
+	file, err := os.Create(argOut)
 	checkError("Can't create file", err)
 	defer file.Close()
 
@@ -88,6 +90,9 @@ func main() {
 
 	// ln (above) is required, and it needs to be used somewhere, so I'm showing it here ...
 	fmt.Printf("String length: %v"+"\n", ln)
+
+	println(argOut)
+
 }
 
 func checkError(message string, err error) {
