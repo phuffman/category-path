@@ -12,7 +12,7 @@ import (
 
 func main() {
 
-	// Check command line for 'category-path in.csv out.txt'
+	// Check command line for 'category-path in.csv'
 	if len(os.Args) != 2 {
 		fmt.Println("Try: category-path in.csv")
 		return
