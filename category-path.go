@@ -10,6 +10,13 @@ import (
 	"strings"
 )
 
+// columns used to identify column number of important columns
+type columns struct {
+	categorytype int
+	parent       int
+	category     int
+}
+
 func main() {
 
 	// Verify input has 2 args
@@ -36,15 +43,8 @@ func main() {
 
 	// Get column numbers of key fields
 
-	// Create struct (Columns)
-	type Columns struct {
-		categorytype int
-		parent       int
-		category     int
-	}
-
-	// Create Columns variable (cols)
-	cols := Columns{
+	// Create variable to hold column heads (cols)
+	cols := columns{
 		categorytype: -1,
 		parent:       -1,
 		category:     -1,
